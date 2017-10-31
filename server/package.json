@@ -1,0 +1,22 @@
+{
+  "name": "hubvisor",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "francoiskieffer",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
